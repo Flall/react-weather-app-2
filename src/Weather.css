@@ -1,0 +1,84 @@
+.Weather {
+  border: 3px solid #9874f3;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  padding: 16px;
+  margin: 30px auto;
+  max-width: 650px;
+  box-shadow: 3px 3px 10px #9874f3;
+}
+
+.Weather h1 {
+  color: #ef5f9a;
+  margin: 0;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 600;
+  height: 30px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #9874f3;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.Weather li:first-letter {
+  text-transform: capitalize;
+}
+.Weather img {
+  height: 72px;
+  width: 72px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.Weather .temperature {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -24px;
+  margin-left: 5px;
+}
+
+#search-bar {
+  border: 2px solid #9874f3;
+  box-shadow: 3px 3px 10px #9874f3;
+}
+
+#search-button,
+#location-button {
+  color: #8d65f2;
+  font-weight: 600;
+  line-height: 28px;
+  border: 2px solid #9874f3;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px #9874f3;
+  background: rgb(119, 211, 208);
+}
+#search-button:hover,
+#location-button:hover {
+  transition: all 200ms ease-in-out;
+  background-color: rgb(99, 191, 188);
+}
