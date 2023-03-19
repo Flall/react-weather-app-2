@@ -20,3 +20,10 @@
   cursor: pointer;
   text-decoration: underline;
 }
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
