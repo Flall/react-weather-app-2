@@ -92,6 +92,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Fetching data...";
+    return "Loading...";
   }
 }
