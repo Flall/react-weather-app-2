@@ -29,7 +29,7 @@ export default function App() {
           </a>
           and hosted on
           <a
-            href="https://playful-ganache-ddc540.netlify.app"
+            href="https://comforting-sfogliatella-fe8280.netlify.app"
             className="footer"
             target="_blank"
             rel="noopener noreferrer"
